@@ -47,12 +47,12 @@ body a {
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content:center;
     align-items: center;
-    margin-left: 50px;
-    margin-right: 50px;
+    gap: 900px;
     color: var(--white);
     background-color: var(--black);
+    
 }
 
 
@@ -88,6 +88,9 @@ header nav a {
 
 }
 
+header h1{
+    font-size:20px;
+}
 .header-main-hr {
     width: 90%;
     border-width: 1px;
@@ -128,7 +131,7 @@ header nav a {
 
 .sec1-left-bottom {
     display: flex;
-    width: 308px;
+    
     height: 36px;
     align-items: center;
     justify-content: center;
@@ -154,7 +157,7 @@ header nav a {
     font-family: DM Sans;
     font-weight: 400;
     font-style: Regular;
-    font-size: 18px;
+    
     line-height: 110.00000000000001%;
     letter-spacing: -4.5%;
     color: var(--black);
@@ -277,6 +280,13 @@ span {
     position: absolute;
     left: 160px;
     top: 1470px;
+}
+
+
+.sec3-img3{
+    position: relative;
+    left: -140px;
+    top: 40px;
 }
 
 
